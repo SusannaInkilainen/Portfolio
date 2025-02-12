@@ -11,4 +11,5 @@
 * Tailwind css
 
 # Päivitykset
-* 12/02/2025 projektin luonti + repo githubiin
+* 12/02/2025 projektin luonti + repo githubiin + pientä säätöä
+* 
