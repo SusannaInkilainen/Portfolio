@@ -19,7 +19,7 @@ export default function Hero() {
                 <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">
-                            <p className="text-lime-700 md:uppercase">Susanna Inkiläinen</p>
+                            <img src="src/assets/photos/inkilainen.png" title="Susanna Inkiläinen logo"/>
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -34,7 +34,7 @@ export default function Hero() {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
                         {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-violet-800">
+                            <a key={item.name} href={item.href} className="text-xl font-semibold text-violet-800">
                                 {item.name}
                             </a>
                         ))}
@@ -85,7 +85,7 @@ export default function Hero() {
                             Learning <span className="underline decoration-purple-900">everything</span> about <span className="underline decoration-purple-900">anything</span>
                         </h1>
                         <p className="mt-8 text-lg font-medium text-pretty text-lime-700 sm:text-xl/8">
-                            Tää on tosi tarttuva täyteteksti. Tää saa biisin soimaan sun päähäsi :)
+                            Haluna päästä kehittämään, vaikuttamaan ja luomaan uutta.
                         </p>
                     </div>
                 </div>
